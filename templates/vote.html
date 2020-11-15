@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home {% endblock %}
+{% block content %}
+
+	<div class="body-wrap container-fluid">
+		<div class="main-election container-fluid">
+			<div class="main-election-header container-fluid clearfix"><h3>Main Election</h3> </div>
+			<!-- Candidate Split -->
+			<div class="left-candidate-wrap container-fluid">
+				<div class="main-candidate container-fluid">
+					<div class="candidate-personal container-fluid">
+						<div class="candidate-name container-fluid"><h3>Joe Biden</h3></div>
+						<div class="candidate-image container-fluid">
+							<img class="can-pic" src="{% static 'images/candidate-image.png' %}">
+						</div>
+
+					</div>
+					<div class="candidate-info container-fluid">
+						<div class="candidate-content container-fluid">
+							<div class="candidate-keypoints container-fluid">
+								<h4>Key Points</h4>
+								<ul>
+									<li> Point 1</li>
+									<li> Point 2</li>
+									<li> Point 3</li>
+									<li> Point 4</li>
+								</ul>
+							</div>
+							<div class="candidate-summary container-fluid">
+								<h4>Campaign Statement</h4>
+								Brief campaign summary will go here. <a href="">View More Information</a>
+							</div>
+							<div class="candidate-vote container-fluid">
+								<button type="button" class="candidate-vote-btn btn btn-success">Click to Vote</button>
+
+							</div>
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+			<!-- Candidate Split -->
+			<div class="left-candidate-wrap container-fluid">
+				<div class="main-candidate container-fluid">
+					<div class="candidate-personal container-fluid">
+						<div class="candidate-name container-fluid"><h3>Joe Biden</h3></div>
+						<div class="candidate-image container-fluid">
+							<img class="can-pic" src="{% static 'images/candidate-image.png' %}">
+						</div>
+
+
+					</div>
+					<div class="candidate-info container-fluid">
+						<div class="candidate-content container-fluid">
+							<div class="candidate-keypoints container-fluid">
+								<h4>Key Points</h4>
+								<ul>
+									<li> Point 1</li>
+									<li> Point 2</li>
+									<li> Point 3</li>
+									<li> Point 4</li>
+								</ul>
+							</div>
+							<div class="candidate-summary container-fluid">
+								<h4>Campaign Statement</h4>
+								Brief campaign summary will go here. <a href="">View More Information</a>
+							</div>
+							<div class="candidate-vote container-fluid">
+								<button type="button" class="candidate-vote-btn btn btn-success">Click to Vote</button>
+
+							</div>
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+			<!-- Candidate Split -->
+
+
+		</div>
+		<div class="secondary-election container-fluid">
+			<div class="main-election-header container-fluid"><h3>Secondary Election</h3> </div>
+			<div class="secondary-election-wrap container-fluid">
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer container-fluid"> Voting System Copyright</div>
+
+</div>
+{% endblock %}
